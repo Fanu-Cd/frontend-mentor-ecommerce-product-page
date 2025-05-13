@@ -1,0 +1,11 @@
+const SMALL_BREAKPOINT = "375px";
+const TABLET_BREAKPOINT = "768px";
+const DESKTOP_BREAKPOINT = "1440px";
+
+export const cssBreakPoints = {
+  SMALL_BREAKPOINT,
+  TABLET_BREAKPOINT,
+  DESKTOP_BREAKPOINT,
+};
+
+export const DEFAULT_CURRENCY = "$";

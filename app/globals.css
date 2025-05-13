@@ -1,26 +1,75 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("../public/assets/Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf");
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif !important;
+  min-width: 320px;
+}
+
+.text-dark-blue {
+  color: hsl(220, 13%, 13%) !important;
+}
+
+.text-dark-grayish-blue {
+  color: hsl(219, 9%, 45%) !important;
+}
+
+.text-grayish-blue {
+  color: hsl(220, 14%, 75%) !important;
+}
+
+.text-light-grayish-blue {
+  color: hsl(223, 64%, 98%) !important;
+}
+
+.bg-light-grayish-blue {
+  background: hsl(223, 64%, 98%) !important;
+}
+
+.bg-dark-grayish-blue {
+  background: hsl(219, 9%, 45%) !important;
+}
+
+.text-white {
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.text-black {
+  color: hsl(0, 0%, 0%) !important;
+}
+
+.border-dark-grayish-blue {
+  border-color: hsl(220, 14%, 75%) !important;
+}
+
+.orange-outline {
+  outline-color: hsl(26, 100%, 55%) !important;
+}
+
+.orange-border-on-hover:hover {
+  border-color: hsl(26, 100%, 55%) !important;
+}
+
+.orange-on-hover:hover {
+  color: hsl(26, 100%, 55%) !important;
+}
+
+.bg-orange {
+  background: hsl(26, 100%, 55%) !important;
+}
+
+.bg-pale-orange {
+  background: hsl(25, 100%, 94%) !important;
+}
+
+.text-orange {
+  color: hsl(26, 100%, 55%) !important;
 }
