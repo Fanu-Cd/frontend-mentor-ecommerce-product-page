@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - E-commerce product page solution
 
-## Getting Started
+This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### The challenge
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Users should be able to:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Open a lightbox gallery by clicking on the large product image
+- Switch the large product image by clicking on the small thumbnail images
+- Add items to the cart
+- View the cart and remove items from it
 
-## Learn More
+### Screenshot
 
-To learn more about Next.js, take a look at the following resources:
+![ProductPage](image.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Solution URL: https://github.com/Fanu-Cd/frontend-mentor-ecommerce-product-page
+- Live Site URL: https://frontend-mentor-ecommerce-product-page-seven.vercel.app/
 
-## Deploy on Vercel
+### My process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Built with
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid-HTM
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwindcss](https://tailwindcss.com/) - CSS Framework
+- [Mantine UI](https://mantine.dev/) - UI Library
+- [Tabler Icons](https://tabler.io/icons) - React Icons Library
+- [Vite](https://vite.dev/) - Build tool
+
+### What I learned
+
+What I Learned While I Implemented the ecommerce product page
+
+- Built a responsive product page layout that adapts smoothly to all screen sizes using React and Next.js.
+
+- Used Mantine Carousel and Portal(Full screen Overlay) to create a lightbox gallery that opens on images preview.
+
+- Implemented thumbnail image selection to dynamically update the main product image.
+
+- Managed cart functionality including add-to-cart, view cart, and remove items using React state.
+
+- Applied hover effects to all interactive elements for better user experience and feedback.
+
+- Used Mantine hooks like useDisclosure to control modals and useMediaQuery to control responsiveness
+
+- Gained experience integrating design and interactivity using Mantine components with Tailwind styling.
+
+## Author
+
+- Website - [Fanuel Amare](http://fanuel-amare-personal-portfolio-v2.vercel.app/)
+- Frontend Mentor - [@Fanu-Cd](https://www.frontendmentor.io/profile/Fanu-Cd)
